@@ -1,0 +1,25 @@
+{
+  "name": "dev-base-files-mini",
+  "version": "1.0.0",
+  "description": "A simple frontend developer base files",
+  "main": "index.js",
+  "scripts": {
+    "sass": "cd ./App/src/styles && sass --watch sass:css",
+    "watch": "browser-sync start --server ./App --files './App/*.html, ./App/src/*/*/*.css, ./App/src/*/*.js'",
+    "start": "npm run sass & npm run watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "html",
+    "css",
+    "frontend",
+    "browsersync"
+  ],
+  "author": "Akinkunmi Mustapha",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "sass": "^1.32.5"
+  }
+}
