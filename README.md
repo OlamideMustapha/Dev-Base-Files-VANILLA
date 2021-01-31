@@ -1,1 +1,1 @@
-## Dev Starter Kit
+# Dev Starter Kit (Vanilla)
