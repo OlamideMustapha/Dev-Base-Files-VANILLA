@@ -1,7 +1,7 @@
 {
-  "name": "dev-base-files-mini",
+  "name": "dev-base-files-vanilla",
   "version": "1.0.0",
-  "description": "A simple frontend developer base files",
+  "description": "A simple frontend development base files",
   "main": "index.js",
   "scripts": {
     "sass": "cd ./App/src/styles && sass --watch sass:css",
@@ -16,8 +16,11 @@
     "frontend",
     "browsersync"
   ],
-  "author": "Akinkunmi Mustapha",
-  "license": "ISC",
+  "author": {
+    "name": "Akinkunmi Mustapha",
+    "email": "akinkunmiMustapha1@gmail.com"
+  },
+  "license": "BSD",
   "devDependencies": {
     "browser-sync": "^2.26.14",
     "sass": "^1.32.5"
